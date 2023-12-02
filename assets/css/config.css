@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  body {
+    background-color: #fff9f7; /* Substituído $bg-color pelo valor correspondente */
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  header,
+  main,
+  footer {
+    width: 100%;
+  }
+  
+  main {
+    margin-top: 100px;
+  }
+  
+  /* Mixin container convertido para regras CSS */
+  .container {
+    display: flex;
+    padding: 0 5vw;
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

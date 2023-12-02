@@ -1,0 +1,94 @@
+.cardLayout {
+    background-color: #BFC8FF;
+  }
+  
+  .cardLayout img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cardLayout .text-area {
+    text-align: center;
+    padding: 25px 30px;
+  }
+  
+  .cardLayout .text-area > h4 {
+    margin-bottom: 10px;
+  }
+  
+  .presentation-bg {
+    background-color: #232323;
+  }
+  
+  .presentation-container {
+    color: white;
+    box-sizing: border-box;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text-presentation {
+    position: relative;
+    width: 40%;
+  }
+  
+  .text-presentation > .text-area {
+    margin-top: 130px;
+  }
+  
+  .text-presentation > .text-area p,
+  .text-presentation > .text-area h1 {
+    margin-bottom: 30px;
+  }
+  
+  .presentation-banners {
+  }
+
+  .presentation-banners .banner {
+    height: 650px;
+  }
+  
+  @media (max-width: 1080px) {
+    .presentation-container {
+      padding-top: 50px;
+      justify-content: center;
+    }
+  
+    .text-presentation {
+      width: 100%;
+    }
+  
+    .text-presentation > .text-area {
+      margin-top: 0px;
+      height: auto;
+    }
+  
+    .arrow {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .presentation-container {
+      padding-bottom: 0px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .presentation-banners {
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+
+    .presentation-banners .banner {
+      
+      height: 350px;
+    }
+  
+    .presentation-bg {
+      box-shadow: none;
+    }
+  }
+  

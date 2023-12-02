@@ -1,0 +1,29 @@
+.categories-container {
+    justify-content: center;
+    align-items: center;
+    padding: 60px 9vw;
+  }
+  
+  .categories-container .swiper {
+    width: 100%;
+  }
+  
+  .categories-container .swiper-slide img {
+    border-radius: 100%;
+    width: 80%;
+    object-fit: cover;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 1080px) {
+    .categories-container {
+      padding: 40px 9vw;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .categories-container {
+      padding: 20px 9vw;
+    }
+  }
+  

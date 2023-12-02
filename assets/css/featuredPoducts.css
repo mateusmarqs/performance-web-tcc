@@ -1,0 +1,133 @@
+.featured-products {
+    margin-top: 100px;
+    padding: 60px 0;
+    background: linear-gradient(to left, #fff9f7 18vw, #4b4b4b 0vw);
+  }
+  
+  .featured-products-container {
+    display: flex;
+    padding: 0 5vw;
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-content > .banner {
+    width: 40%;
+  }
+  
+  .product-content > .banner > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .product-content > .text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 20px;
+    color: white;
+    width: 40%;
+  }
+  
+  .product-content > .text-area > .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #414151;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+  }
+  
+  .product-content > .text-area > .button:hover {
+    opacity: .7;
+  }
+  
+  .products {
+    width: 35%;
+  }
+  
+  .products .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .products .swiper img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .products .swiper-button-next,
+  .products .swiper-button-prev {
+    color: white;
+    width: 50px;
+    height: 50px;
+  }
+  
+  @media (max-width: 1080px) {
+    .products {
+      width: 40%;
+    }
+  
+    .product-content > .banner {
+      width: 50%;
+    }
+  
+    .product-content > .text-area {
+      margin: 30px 0;
+      margin-right: 20px;
+      width: 100%;
+    }
+  
+    .product-content > .text-area p,
+    .product-content > .text-area h1 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .featured-products {
+      background: #4b4b4b;
+    }
+  
+    .featured-products-container {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .product-content {
+      justify-content: center;
+    }
+  
+    .product-content > .banner {
+      width: 70%;
+    }
+  
+    .product-content > .text-area {
+      align-items: center;
+      text-align: center;
+      margin: 30px 0;
+      margin-right: 20px;
+      width: 100%;
+    }
+  
+    .products {
+      width: 80%;
+    }
+  }
+  

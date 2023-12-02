@@ -1,0 +1,103 @@
+.instagram-posts {
+    padding: 80px 0;
+  }
+  
+  .instagram-posts-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .instagram-posts-container > a {
+    font-size: 2rem;
+    color: #414151;
+  }
+  .instagram-posts-container > a:hover {
+    color: black;
+  }
+  
+  .recent-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .recent-posts img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .recent-posts .post {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    min-width: 245px;
+  }
+  .recent-posts .post-indented {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    min-width: 245px;
+    margin-top: 80px;
+  }
+  .recent-posts .post-overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    color: #ffffff;
+    background-color: #232323;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .recent-posts .post-overlay:hover {
+    opacity: 1;
+  }
+  
+  @media (max-width: 900px) {
+    .instagram-posts {
+      padding: 40px 0;
+    }
+    .instagram-posts-container > a {
+      margin-bottom: 40px;
+    }
+  
+    .recent-posts {
+      justify-content: center;
+    }
+    .recent-posts .post {
+      position: relative;
+      width: 80%;
+      height: 80%;
+      min-width: 245px;
+      margin-bottom: 40px;
+    }
+    .recent-posts .post-indented {
+      width: 80%;
+      height: 80%;
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    .recent-posts .post-overlay {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      padding: 25px;
+      color: #414151;
+      background-color: #232323;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .recent-posts .post-overlay:hover {
+      opacity: 1;
+    }
+  }
+  
